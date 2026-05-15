@@ -68,7 +68,7 @@ archive_import_history(vintages_dt, repository_path = ".")
 ## Step 5: Write & Validate Metadata
 
 # check if info is available via api
-indpau_meta <- read_dataset_ts_metadata("ch.fso.hesta") # empty list
+besta_meta <- read_dataset_ts_metadata("ch.fso.besta") # empty list
 
 render_metadata()
 meta <- read_meta(".")
