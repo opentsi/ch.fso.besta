@@ -94,3 +94,5 @@ check()
 install()
 
 
+# build readme 
+devtools::build_readme()
