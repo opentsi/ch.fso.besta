@@ -2,7 +2,7 @@
 % Please edit documentation in R/process_data.R
 \name{process_data}
 \alias{process_data}
-\title{Process FSO INDPAU Data}
+\title{Process FSO BESTA Data}
 \usage{
 process_data(key = key)
 }
@@ -13,6 +13,6 @@ process_data(key = key)
 Invisibly returns a character vector of output file paths.
 }
 \description{
-Fetches all time series in the ch.fso.indpau collection from the KOF
+Fetches all time series in the ch.fso.besta collection from the KOF
 Time Series Database and writes each to its key.csv
 }

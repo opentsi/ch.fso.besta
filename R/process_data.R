@@ -1,6 +1,6 @@
-#' Process FSO INDPAU Data
+#' Process FSO BESTA Data
 #'
-#' Fetches all time series in the ch.fso.indpau collection from the KOF
+#' Fetches all time series in the ch.fso.besta collection from the KOF
 #' Time Series Database and writes each to its key.csv
 #'
 #' @importFrom tsdbapi read_dataset_keys set_config read_ts
