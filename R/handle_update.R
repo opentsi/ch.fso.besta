@@ -18,7 +18,7 @@ handle_update <- function(key = key) {
   # that returns the most recent version of a time series
   # from its original provider
   # Store checksum after successful update
-  upd <- update_checksum(checksum)
+  upd <- update_checksum(checksum_input)
   if(upd){
     process_data("kofbarometer", ids = c("barometer"))
   } else {
